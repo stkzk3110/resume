@@ -1,0 +1,35 @@
+# resume Development Guidelines
+
+Auto-generated from all feature plans. Last updated: 2025-12-01
+
+## Active Technologies
+- Node.js v20 (for tooling), Markdown + `textlint` (ja-technical-writing preset), `markdownlint-cli`, `actions/deploy-pages` (001-manage-resume-gh)
+- Git Repository (File-based) (001-manage-resume-gh)
+- Node.js v20 (for tooling), Markdown + `textlint` (ja-technical-writing preset), `markdownlint-cli`, `md-to-pdf`, `actions/deploy-pages` (001-manage-resume-gh)
+
+- (001-manage-resume-gh)
+
+## Project Structure
+
+```text
+backend/
+frontend/
+tests/
+```
+
+## Commands
+
+# Add commands for 
+
+## Code Style
+
+: Follow standard conventions
+
+## Recent Changes
+- 001-manage-resume-gh: Added Node.js v20 (for tooling), Markdown + `textlint` (ja-technical-writing preset), `markdownlint-cli`, `md-to-pdf`, `actions/deploy-pages`
+- 001-manage-resume-gh: Added Node.js v20 (for tooling), Markdown + `textlint` (ja-technical-writing preset), `markdownlint-cli`, `actions/deploy-pages`
+
+- 001-manage-resume-gh: Added
+
+<!-- MANUAL ADDITIONS START -->
+<!-- MANUAL ADDITIONS END -->

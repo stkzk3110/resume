@@ -1,0 +1,22 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Resume managed by GitHub",
+  "main": "index.js",
+  "scripts": {
+    "lint:text": "textlint resume.md",
+    "lint:md": "markdownlint resume.md",
+    "lint": "npm run lint:text && npm run lint:md",
+    "pdf": "md-to-pdf resume.md",
+    "test": "npm run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "markdownlint-cli": "^0.39.0",
+    "md-to-pdf": "^5.2.4",
+    "textlint": "^13.4.0",
+    "textlint-rule-preset-ja-technical-writing": "^8.0.0"
+  }
+}
