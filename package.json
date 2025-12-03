@@ -4,10 +4,10 @@
   "description": "Resume managed by GitHub",
   "main": "index.js",
   "scripts": {
-    "lint:text": "textlint resume.md",
-    "lint:md": "markdownlint resume.md",
+    "lint:text": "textlint README.md",
+    "lint:md": "markdownlint README.md",
     "lint": "npm run lint:text && npm run lint:md",
-    "pdf": "md-to-pdf resume.md --config-file pdf-config.js",
+    "pdf": "md-to-pdf README.md --config-file pdf-config.js",
     "test": "npm run lint"
   },
   "keywords": [],
