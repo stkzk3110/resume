@@ -7,7 +7,7 @@
     "lint:text": "textlint resume.md",
     "lint:md": "markdownlint resume.md",
     "lint": "npm run lint:text && npm run lint:md",
-    "pdf": "md-to-pdf resume.md",
+    "pdf": "md-to-pdf resume.md --config-file pdf-config.js",
     "test": "npm run lint"
   },
   "keywords": [],
